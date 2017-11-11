@@ -1,0 +1,103 @@
+[debug] [2017-11-11T12:15:33.289Z] ----------------------------------------------------------------------
+[debug] [2017-11-11T12:15:33.293Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\that_guy\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase init
+[debug] [2017-11-11T12:15:33.294Z] CLI Version:   3.9.2
+[debug] [2017-11-11T12:15:33.294Z] Platform:      win32
+[debug] [2017-11-11T12:15:33.294Z] Node Version:  v6.11.0
+[debug] [2017-11-11T12:15:33.295Z] Time:          Sat Nov 11 2017 15:15:33 GMT+0300 (E. Africa Standard Time)
+[debug] [2017-11-11T12:15:33.295Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2017-11-11T12:15:33.313Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase"]
+[debug] [2017-11-11T12:15:33.314Z] > authorizing via signed-in user
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\that_guy\Downloads\Compressed\landing-bootstrapious-1-1\Sakafundi
+
+Before we get started, keep in mind:
+
+  * You are initializing in an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2017-11-11T12:15:40.150Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-11-11T12:15:40.151Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/xmwao57ky4FoQafB2UthJfFPhoL-Gqi5eJqdxK9uY-E',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Sat Nov 11 2017 15:15:40 GMT+0300 (E. Africa Standard Time)
+[debug] [2017-11-11T12:15:44.979Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-11T12:15:44.995Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects  
+ Sat Nov 11 2017 15:15:44 GMT+0300 (E. Africa Standard Time)
+[debug] [2017-11-11T12:15:49.581Z] <<< HTTP RESPONSE 200
+[info] i  .firebaserc already has a default project, skipping
+[info] 
+=== Database Setup
+[info] 
+[info] Firebase Realtime Database Rules allow you to define how your data should be
+[info] structured and when your data can be read from and written to.
+[info] 
+[info] +  Database Rules for undefined have been downloaded to database.rules.json.
+[info] Future modifications to database.rules.json will update Database Rules when you run
+[info] firebase deploy.
+[info] 
+=== Functions Setup
+[info] 
+[info] A functions directory will be created in your project with a Node.js
+[info] package pre-configured. Functions can be deployed with firebase deploy.
+[info] 
+[debug] [2017-11-11T12:16:11.376Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2017-11-11T12:16:11.377Z] > authorizing via signed-in user
+[debug] [2017-11-11T12:16:11.378Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2017-11-11T12:16:11.378Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token { refresh_token: '1/xmwao57ky4FoQafB2UthJfFPhoL-Gqi5eJqdxK9uY-E',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Sat Nov 11 2017 15:16:11 GMT+0300 (E. Africa Standard Time)
+[debug] [2017-11-11T12:16:18.971Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-11T12:16:19.006Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/sakafundi-323a1  
+ Sat Nov 11 2017 15:16:19 GMT+0300 (E. Africa Standard Time)
+[debug] [2017-11-11T12:16:22.989Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-11T12:16:22.992Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/sakafundi-323a1/tokens  
+ Sat Nov 11 2017 15:16:22 GMT+0300 (E. Africa Standard Time)
+[debug] [2017-11-11T12:16:26.808Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-11T12:16:26.812Z] >>> HTTP REQUEST PATCH https://servicemanagement.googleapis.com/v1/services/cloudfunctions.googleapis.com/projectSettings/sakafundi-323a1?updateMask=usageSettings { usageSettings: { consumerEnableStatus: 'ENABLED' } } 
+ Sat Nov 11 2017 15:16:26 GMT+0300 (E. Africa Standard Time)
+[debug] [2017-11-11T12:16:26.818Z] >>> HTTP REQUEST PATCH https://servicemanagement.googleapis.com/v1/services/runtimeconfig.googleapis.com/projectSettings/sakafundi-323a1?updateMask=usageSettings { usageSettings: { consumerEnableStatus: 'ENABLED' } } 
+ Sat Nov 11 2017 15:16:26 GMT+0300 (E. Africa Standard Time)
+[info] +  Wrote functions/package.json
+[info] +  Wrote functions/index.js
+[debug] [2017-11-11T12:16:37.253Z] <<< HTTP RESPONSE 200
+[debug] [2017-11-11T12:16:37.257Z] <<< HTTP RESPONSE 200
+[info] 
+=== Hosting Setup
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2017-11-11T12:19:11.761Z] RangeError: Maximum call stack size exceeded
+    at Object.fs.mkdirSync (fs.js:923:18)
+    at mkdirsSync (C:\Users\that_guy\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\fs-extra\lib\mkdirs\mkdirs-sync.js:22:9)
+    at mkdirsSync (C:\Users\that_guy\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\fs-extra\lib\mkdirs\mkdirs-sync.js:27:16)
+    at mkdirsSync (C:\Users\that_guy\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\fs-extra\lib\mkdirs\mkdirs-sync.js:28:9)
+    at mkdirsSync (C:\Users\that_guy\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\fs-extra\lib\mkdirs\mkdirs-sync.js:28:9)
+    at mkdirsSync (C:\Users\that_guy\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\fs-extra\lib\mkdirs\mkdirs-sync.js:28:9)
+    at mkdirsSync (C:\Users\that_guy\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\fs-extra\lib\mkdirs\mkdirs-sync.js:28:9)
+    at mkdirsSync (C:\Users\that_guy\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\fs-extra\lib\mkdirs\mkdirs-sync.js:28:9)
+    at mkdirsSync (C:\Users\that_guy\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\fs-extra\lib\mkdirs\mkdirs-sync.js:28:9)
+    at mkdirsSync (C:\Users\that_guy\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\fs-extra\lib\mkdirs\mkdirs-sync.js:28:9)
+[error] 
+[error] Error: An unexpected error has occurred.
